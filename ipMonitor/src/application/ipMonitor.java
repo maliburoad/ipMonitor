@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 
 
-public class Main extends Application {
+public class ipMonitor extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -14,7 +14,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root,400,400);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("This is my Tilte");
+			primaryStage.setTitle("Main");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
